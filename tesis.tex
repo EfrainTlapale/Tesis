@@ -42,16 +42,20 @@
 %% Por ejemplo:
 %\usepackage{subfig}
 %\usepackage{multirow}
+\usepackage{float}
 \usepackage[utf8]{inputenc}
-
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+\usepackage{listings}
+\lstset{language=java, aboveskip=5em, belowskip=5em}
 %% # Datos del documento #
 %% Nota que los acentos se deben escribir: \'a, \'e, \'i, etc.
 %% La letra n con tilde es: \~n.
 
 \author{Efrain Tlapale Pulido}
-\title{Desarrollo de una guía para la transferencia de conocimiento de la arquitectura SOA a empleados de nuevo ingreso de la empresa MBN}
+\title{Propuesta de arquitectura SOA en MBN}
 \degree{Ingeniero en Sistemas Computacionales}
-\supervisor{Nombre de mi Asesor}
+\supervisor{PhD Alberto Portilla Flores}
 \institution{Universidad del Valle de Tlaxcala}
 
 %% # M'argenes del documento #
@@ -74,6 +78,7 @@
 %% # Portada de la tesis #
 %% Mirar el archivo "titlepage.tex" para los detalles.
 \include{titlepage}
+
 
 %% # Prefacios #
 %% Por cada prefacio (p.e. agradecimientos, resumen, etc.) crear

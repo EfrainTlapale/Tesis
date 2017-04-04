@@ -20,12 +20,19 @@ La empresa Miracle Bussines Network no cuenta con una arquitectura estandarizada
 \section{ Estado del Arte }
 
 \subsection{ Sistemas de información distribuidos }
+
 Los sistemas de información han evolucionado de acuerdo a las necesidades generadas a partir de avances tecnológicos empleados en la construcción de hardware y software. Los sistemas de información siempre se han podido abstraer en 3 capas: presentación, lógica y administración de recursos.
 Los primeros sistemas de información mantenían las 3 capas antes mencionadas en una sola computadora, por lo que eran consideradas aplicaciones monolíticas, esto producía componentes fuertemente acoplados que no podían ser utilizados en ambientes externos
 
-
 Con la aparición de la red de área local, comenzó una separación de capas que distribuía procesos en diferentes computadoras, la capa de presentación se designo exclusivamente a los clientes y la de lógica y recursos a los servidores. Muchos estilos arquitectónicos se crearon basándose en esta separación de capas.
 Cuando el avance en la teoría de redes de computadoras logró aumentar el ancho de banda disponible, los sistemas de información comenzaron a aislar las capas y se logró una completa distribución, se creó una capa extra entre el cliente y el servidos llamada “middleware”, que permitía comunicar todas las capas entre sí y mantener organizado el flujo de información.
+
+\begin{figure}[H]
+  \begin{center}
+    \includegraphics[scale=0.8]{DistArch}
+  \end{center}
+  \caption{Arquitectura de un Sistema Distribuido}
+\end{figure}
 
 \subsection{ Arquitecturas distribuidas modernas }
 Como se mencionó en el punto anterior, los sistemas de información modernos utilizan estilos arquitectónicos distribuidos para mejorar el rendimiento, construcción y mantenimiento. A continuación se presentan las principales arquitecturas distribuidas: 
@@ -55,5 +62,5 @@ Para alcanzar el objetivo general se plantean los siguientes objetivos específi
 \begin{itemize}
 \item Analizar y caracterizar las principales tecnologías utilizadas en los sistemas ya desarrollados por MBN.
 \item Documentar la propuesta de Arquitectura 
-\item Elaborar un documento que sirva como guía práctica para implementar la arquitectura de MBN
+\item Elaborar un documento formal que facilite la adopción de la arquitectura de MBN
 \end{itemize}
