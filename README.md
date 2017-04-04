@@ -1,4 +1,4 @@
-ezthesis
+Propuesta de Arquitectura para MBN
 ========
 
-Formato de tesis para LaTeX
+Trabajo recepcional para obtener el grado de Ingeniero en Sistemas Computacionales en la Universidad del Valle de Tlaxcala
